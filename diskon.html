@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<script src="main.js" defer></script>
+	<title>Discount Calculator</title>
+</head>
+<body>
+    <div class="card">
+    	<h1>DISKON KALKULATOR</h1>
+    	<form action="#">
+    		<div class="input-item">
+    			<label for="nama barang">Nama Barang :</label>
+    			<select name="barang" id="Nama Barang">
+    				<option value="Jenis Hijab">Jenis Hijab</option>
+    				<option value="Hijab Persegi">Hijab Persegi</option>
+    				<option value="Hijab Pashmina">Hijab Pashmina</option>
+    				<option value="Hijab Bergo">Hijab Bergo</option>
+    				<option value="Hijab Pashmina Kaos">Hijab Pashmina Kaos</option>
+    			</select>
+    		</div>
+    		<div class="input-item">
+    			<label for="amount"> Harga Asli : </label>
+    			<input type="text" id="amount">
+    		</div>
+
+    		<div class="input-item">
+    			<label for="discount-percentage">Diskon %</label>
+    				<input type="text" id="discount-percentage">
+    		</div>
+    		<button type="submit" class="calculate">JUMLAH</button>
+    		<div class="input-item">
+    			<label for="discount-amount"> Jumlah Diskon: </label>
+    			<input type="text" id="discount-amount" disabled>
+    		</div>
+    		<div class="input-item">
+    			<label for="pay" aria-disabled="true"> Harga Setelah Diskon:</label>
+    			<input type="text" id="pay" disabled>
+    		</div>
+    		<input type="reset" value="Reset" class="reset">
+    	 <li> <a href="beranda.html"><i class="icon icon-shopping-cart"></i> <span>BACK</span></a> </li>
+    	</form>
+   </div>
+</body>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<script src="main.js" defer></script>
+	<title>Discount Calculator</title>
+</head>
+<body>
+    <div class="card">
+    	<h1>RINCIAN PEMBAYARAN</h1>
+    	<form action="#">
+    		<div class="input-item">
+    			<label for="harga"> Total Harga Diskon : </label>
+    			<input type="text" id="harga" disabled>
+    		</div>
+    		<div class="input-item">
+    			<label for="hasil" aria-disabled="true"> Total Bayar :</label>
+    			<input type="text" id="hasil" disabled>
+    			<h1><div><button onclick="window.print()"> Print </button></div></h1>
+    		</form>
+    		</div>
+    	</body>
+</html>
